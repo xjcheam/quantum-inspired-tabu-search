@@ -25,3 +25,53 @@ To let the algorithm efficiently update the probability from chosen to not chose
 
 ## Adaptive angle
 Adaptive angle is a feature to use different update step’s sizes according to the value of the beta-matrix. The adaptive angle is integrated in ANQTS and ANGQTS. The purpose of this design is to give the algorithm the ability to explore for potential solution when the probability to choose each stock or not is similar; and to precisely probe around the possible solution when the algorithm already have preferred solution. The adaptive angle, of course, is bounded in a range, which could be defined by user, or upper bounded to 0.00125 and lower bounded to 0.00045.
+
+<br>
+
+# Installation Guide
+This is an unpublished package, the installation, therefore is different from installing a published package.
+
+1. (Optional) **Create and activate virtual environment** <br>
+It is always a good practice to create a virtual environment for a Python projects. As Python virtual environments give you the ability to isolate your Python development projects from your system installed Python and other Python environments, in order words, easier to manage between projects.  <br>
+i. Create a project folder where you want your virtual environment to be. <br>
+ii. Navigate to the project folder in terminal using cd.
+```python
+   > cd /path_to_project_folder/project_folder
+```
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;iii. Install python package for virtual environment: <br>
+ ```python
+    > pip install venv
+```
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;iv. Create virtual environment: <br>
+```python
+   > python -m venv virtual_environment_name
+```
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;iv. Activate virtual environment:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; For Windows:
+```python
+   > virtual_environment_name\Scripts\activate
+```
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; For Linux:
+```python
+   > source virtual_environment_name/bin/activate
+```
+2. **Install QTS package** <br>
+i. Download and unzip QTS package to your local computer. <br>
+ii. In your virtual environment, navigate to downloaded QTS folder.
+```python
+   (virtual_environment_name) > cd path/to/QTS-master
+```
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; iii. Install wheel.
+```python
+   (virtual_environment_name) > pip install wheel
+```
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; iv. Install QTS package.
+```python
+  (virtual_environment_name) > pip install .
+```
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; v. Test installation
+```python
+   (virtual_environment_name) > python
+   >>> from QTS.GNQTS import GNQTS #if no error, the installation is successful
+```
+<br>
