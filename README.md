@@ -1,4 +1,4 @@
-# Table of contents
+# Table of Contents
 1. [Introduction](#introduction)
    <br>i. [Quantum-inspired Tabu Search](#quantum-inspired-tabu-search-qts) 
    <br>ii. [Beta-Matrix](#beta-matrix)
