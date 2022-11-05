@@ -8,8 +8,6 @@
 2. [Installation Guide](#installation-guide)
 3. [References](#references)
 
-<br>
-
 # Introduction
 ## Quantum-inspired Tabu Search (QTS)
 
