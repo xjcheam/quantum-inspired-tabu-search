@@ -1,4 +1,17 @@
-# Quantum-inspired Tabu Search (QTS)
+# Table of contents
+1. [Introduction](#introduction)
+   <br>i. [Quantum-inspired Tabu Search](#quantum-inspired-tabu-search-qts) 
+   <br>ii. [Beta-Matrix](#beta-matrix)
+   <br>iii. [Best Solution](#best-solution)
+   <br>iv. [Not Gate](#not-gate)
+   <br>v. [Adaptive Angle](#adaptive-angle)
+2. [Installation Guide](#installation-guide)
+3. [References](#references)
+
+<br>
+
+# Introduction
+## Quantum-inspired Tabu Search (QTS)
 
 Quantum-inspired Tabu Search(QTS) is a metaheuristic algorithm which design was inspired by quantum characteristics. Quantum superposition is a fundamental principle which describes the ability of quantum system to be in multiple states before it was measured, while the chances of collapsing into one state when measured is the probability of each of the several eigenstates. In QTS, it shares the same mechanism, which each bit in the solution of the algorithm can be in, chosen or not chosen, 2 eigenstate. Whereas the sum of probability of the two states is 1.
 
