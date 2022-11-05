@@ -67,10 +67,10 @@ ii. Navigate to the project folder in terminal using cd.
    > source virtual_environment_name/bin/activate
 ```
 2. **Install QTS package** <br>
-i. Download and unzip QTS package to your local computer. <br>
+i. Git clone QTS package to the folder that your want your project to be on your local computer. <br>
 ii. In your virtual environment, navigate to downloaded QTS folder.
 ```python
-   (virtual_environment_name) > cd path/to/QTS-master
+   (virtual_environment_name) > cd path/to/QTS
 ```
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; iii. Install wheel.
 ```python
