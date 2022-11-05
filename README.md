@@ -75,3 +75,11 @@ ii. In your virtual environment, navigate to downloaded QTS folder.
    >>> from QTS.GNQTS import GNQTS #if no error, the installation is successful
 ```
 <br>
+
+# References
+1. S. -Y. Kuo, C. Kuo and Y. -H. Chou, "Dynamic stock trading system based on Quantum-inspired Tabu Search algorithm," 2013 IEEE Congress on Evolutionary Computation, 2013, pp. 1029-1036, doi: 10.1109/CEC.2013.6557680.
+2. Y. -H. Chou, S. -Y. Kuo, C. -Y. Chen and H. -C. Chao, "A Rule-Based Dynamic Decision-Making Stock Trading System Based on Quantum-Inspired Tabu Search Algorithm," in IEEE Access, vol. 2, pp. 883-896, 2014, doi: 10.1109/ACCESS.2014.2352261.
+3. W. -L. Yeoh, Y. -J. Jhang, S. -Y. Kuo and Y. -H. Chou, "Automatic Stock Trading System Combined with Short Selling Using Moving Average and GQTS Algorithm," 2018 IEEE International Conference on Systems, Man, and Cybernetics (SMC), 2018, pp. 1570-1575, doi: 10.1109/SMC.2018.00272.
+4. Y. -C. Jiang, X. J. Cheam, C. -Y. Chen, S. -Y. Kuo and Y. -H. Chou, "A Novel Portfolio Optimization with Short Selling Using GNQTS and Trend Ratio," 2018 IEEE International Conference on Systems, Man, and Cybernetics (SMC), 2018, pp. 1564-1569, doi: 10.1109/SMC.2018.00271.
+5. S. Kuo, X. J. Cheam, Y. Jiang, Y. Lai, K. Chang and Y. Chou, "Portfolio optimization Model using ANQTS with Trend Ratio on Quadratic Regression," 2019 IEEE International Conference on Systems, Man and Cybernetics (SMC), 2019, pp. 629-634, doi: 10.1109/SMC.2019.8914008.
+6. S. -Y. Kuo and Y. -H. Chou, "Entanglement-Enhanced Quantum-Inspired Tabu Search Algorithm for Function Optimization," in IEEE Access, vol. 5, pp. 13236-13252, 2017, doi: 10.1109/ACCESS.2017.2723538.
